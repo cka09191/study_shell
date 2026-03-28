@@ -1,0 +1,7 @@
+Alice	25	Tokyo
+Bob	30	Osaka
+Charlie	22	Kyoto
+Diana	28	Tokyo
+Eve	35	Osaka
+Frank	19	Kyoto
+Grace	42	Tokyo
