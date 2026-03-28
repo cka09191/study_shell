@@ -265,7 +265,8 @@ run_exercise() {
 run_all_from() {
   local start_completed="$1"   # if true: skip completed; if false: run all
   local exercises
-  mapfile -t exercises < <(get_exercises)
+  exercises=()
+  while IFS= read -r line; do exercises+=("$line"); done < <(get_exercises)
   local ex_file
   for ex_file in "${exercises[@]}"; do
     local NUM=''
